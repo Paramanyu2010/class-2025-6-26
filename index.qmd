@@ -66,7 +66,7 @@ p <- ggplot(nyc_data, aes(
     legend.position = "none",
     strip.text = element_text(size = 12, face = "bold"),
     axis.text.y = element_text(face = "bold"),
-    plot.title = element_text(hjust = 0.5, face = "bold", size = 14)
+    plot.title = element_text(hjust = 0.5, face = "bold", size = 14),
   )
 # Convert to interactive plot
 ggplotly(p, tooltip = "text")
